@@ -1,0 +1,1 @@
+SELECT SUBSTR(avg(rating), 1, 4) FROM ratings WHERE (SELECT id FROM movies WHERE year = 2012);
